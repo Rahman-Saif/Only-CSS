@@ -1,0 +1,422 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.home{
+    height:80vh;
+    width:100vw;
+    /* align-items: center; */
+}
+
+.bg-img-section{
+    background-image: url('./resources/Banner\ Image.png');
+    background-size: cover;
+    border-radius: 16px;
+    width:1320px;
+    height:620px;
+    margin:150px 290px;
+    /* background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);  */
+}
+
+.bg-img-section img{
+    background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
+}
+
+.home-bgimage-text {
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color:white;
+    /* font-size: 400px; */
+}
+
+.home-bgimage-text .small-font{
+    font-size: 32px;
+}
+.home-bgimage-text .large-font{
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.discount-section{
+    margin:150px 290px;
+    text-align: center;
+}
+
+.discount-section h1{
+    color:red;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.discount-section .red{
+    color:red;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.discount-section p{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.discount-section img{
+    margin-top: 50px;
+}
+
+.party-card{
+    margin: 150px 290px;
+    height:650px;
+}
+
+.party-card .party-banner{
+    background: url('./resources/Vectorrr.png');
+    height:600px;
+    background-size: cover;
+    display: flex;
+    color:white;
+}
+
+.party-card .party-banner .party-banner-text{
+    margin:126px;
+    width:655px;
+}
+.party-card .party-banner .party-banner-text h1{
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+}
+
+.party-card .party-banner .party-banner-text p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+.party-card .party-banner .party-banner-text a{
+    margin-top: 90px;
+    font-size: 20px;
+    font-weight: 700;
+    color:white;
+    text-decoration: none;
+}
+
+.party-banner-vector{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hotel-section{
+    margin: 150px 290px;
+    background:linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height:500px;
+    border-radius: 16px;
+}
+
+.hotel-section span{
+    color:red;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.hotel-section p{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.hotel-section a{
+    padding:18px;
+    text-decoration: none;
+    color:white;
+    background-color: #FF0000;
+    padding:16px 32px 16px 32px;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+.offer-section{
+     margin: 150px 290px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.offer-section p{
+    width:390px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.offer-section .red-font{
+    font-size: 24px;
+    font-weight: 500;
+    color:#FF0000;
+}
+
+.offer-section .large-font{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.offer-section .red-year{
+    font-size: 48px;
+    font-weight: 700;
+    color:#FF0000;
+}
+
+.offer-section .middle{
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    padding:20px;
+}
+
+
+.holiday-sale-section{
+    margin: 150px 290px;
+}
+
+.holiday-sale-section .photos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* position:relative; */
+}
+
+
+.holiday-sale-section .red-wall{
+    position:relative;
+}
+
+.holiday-sale-section .box {
+    position: absolute;
+    margin-top: 10px;
+    z-index: 1;
+
+}
+
+.holiday-sale-section .discount{
+    position:relative;
+    margin-left: 890px;
+    margin-bottom: 0px;
+}
+
+.holiday-sale-section .girl-image{
+    position:relative;
+}
+
+.holiday-sale-section .discount-image{
+    position: absolute;
+    margin-top: 50px;
+    z-index: 1;
+    /* padding: 600px; */
+    margin-left: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.photo-grid{
+    height: 1160px;
+    margin: 150px 290px;
+    margin-top: 100px;
+}
+
+.photo-grid .album-before-text{
+    width:900px;
+}
+
+.photo-grid .photo-collage{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+
+.photo-grid .grid-photo{
+    object-fit: cover;
+}
+
+.photo-grid .red-font{
+    color:red;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.photo-grid .large-font{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 16px;
+    
+}
+
+.photo-grid .small-font{
+    font-size: 20px;
+    margin-bottom: 50px;
+    color:#07021199;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.newsletter-section{
+    height:600px;
+    width:1320px;
+    margin: 150px 290px;
+    background-color:rgba(255, 0, 0, 0.05) ;
+}
+
+.newsletter-image{
+    padding-top:80px;
+    padding-left: 580px;
+}
+
+.newsletter-text{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.newsletter-section .input{
+    /* background-color: red; */
+    width:1320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+}
+
+.newsletter-section input{
+        height: 72px;
+        width:648px;
+        border-radius: 50px;
+        position:relative;
+        padding:20px;
+}
+
+.newsletter-section .input-subscribe{
+    position:absolute;
+    margin-left: 450px;
+    width:210px;
+    height:72px;
+    background:rgb(255, 0, 0);
+    border-radius: 0px 50px 50px 0px;
+    /* align-items: center; */
+   
+    /*  */
+    
+}
+
+.newsletter-section .input-subscribe p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 25px;
+    color: white;
+
+}
+
+.newsletter-text h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.newsletter-section p{
+    font-size: 20px;
+    color:#07021199;
+    margin-bottom: 50px;
+}
+
+.footer{
+    height:600px;
+    background: #070211;
+    color:white;
+}
+
+.footer .margin-footer{
+    padding:120px 140px;
+}
+
+.address-text{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+
+.footer .logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.footer .copyright{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
